@@ -1,0 +1,18 @@
+const navbar = document.createElement('nav')
+navbar.className= 'navbar'
+
+const links = [
+    {text: 'Головна', href: 'pr1.html'},
+    {text: 'Про мене', href: 'aboutMe.html'},
+    {text: 'Мої мрії', href: 'myDream.html'},
+    {text: 'Контакти', href: 'contacts.html'},
+]
+
+links.forEach(link => {
+    const a = document.createElement('a');
+    a.textContent = link.text;
+    a.href = link.href;
+    navbar.appendChild(a)
+})
+
+document.getElementById('navbar').appendChild(nav)
