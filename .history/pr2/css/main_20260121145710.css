@@ -1,0 +1,24 @@
+body{
+    background-image: url('../img/bg.jpg');
+}
+
+.cn{
+    text-align: center;
+}
+
+.jf{
+    text-align: justify;
+}
+
+.rg{
+    text-align: right;
+}
+
+.lf{
+    text-align: left;
+}
+
+main p {
+    background-color: rgba(255, 255, 255, 0.562);
+}
+

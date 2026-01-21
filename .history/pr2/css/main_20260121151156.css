@@ -1,0 +1,25 @@
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+.cn{
+    text-align: center;
+}
+
+.jf{
+    text-align: justify;
+}
+
+.rg{
+    text-align: right;
+}
+
+.lf{
+    text-align: left;
+}
+
+p, nav, h1, h2, h3{
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
