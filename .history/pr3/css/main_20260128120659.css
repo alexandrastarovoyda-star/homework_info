@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(131, 255, 127, 0.829);
+    text-align: center;
+}
+
+.bl{
+    font-weight: bold;
+}
+
+.itl{
+    font-style: italic;
+}
+
+.mail{
+    color: magenta;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.marquee {
+    background-color: green;
+    margin-top: 20 px;
+    width: 100%;
+    height: 40px;
+    animation: move 10s linear infinite;
+    white-space: nowrap;
+    color: white;
+    font-size: 18px;
+}
+
+@keyframes move{
+    from{
+    transform: translateX(0%)
+}
+to {
+    transform: translateX(100%)
+}
+}

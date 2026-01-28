@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(131, 255, 127, 0.829);
+    text-align: center;
+}
+
+.bl{
+    font-weight: bold;
+}
+
+.itl{
+    font-style: italic;
+}
+
+.mail{
+    color: magenta;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.marquee {
+    background-color: green;
+    width: 100%;
+    height: 40px;
+    animation: alternate;
+}
