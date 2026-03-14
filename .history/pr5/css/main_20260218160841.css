@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(250, 164, 143, 0.911);
+    text-align: center;
+}
+
+.bl{
+    font-weight: bold;
+}
+
+.itl{
+    font-style: italic;
+}
+
+.jst{
+    text-align: justify;
+}
+
+#photo1{
+    float: left;
+    margin: 10px;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+#prof{
+    font-size: 20px;
+}
+
+.mail{
+    color: rgba(194, 59, 25, 0.849);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.marquee {
+    background-color: rgb(250, 119, 114);
+    width: 100%;
+    height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(228, 214, 197, 0.932);
+    font-size: 25px;
+}
+
+.video {
+position:relative;
+padding-bottom:56.25%;
+padding-top:25px;height:0;
+}

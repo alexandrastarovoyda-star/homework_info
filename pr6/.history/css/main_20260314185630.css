@@ -1,0 +1,36 @@
+ body {
+    background-color: rgba(255, 114, 201, 0.363); /*колір фону сторінки*/
+    width: 800px; /*ширина сторінки*/
+    font-size: 16px; /*розмір тексту*/
+    font-family: Arial, sans-serif; /*шрифт*/
+    margin: 20px; /*відступ від країв*/
+    line-height: 1.6; /*міжрядковий інтервал*/
+}
+section {
+    margin-bottom: 50px; /*відступ знизу секції*/
+}
+img {
+    max-width: 100%; /*максимальна ширина*/
+    height: auto; /*висота*/
+    display: block; /*зображення відображається як блочний елемент*/
+    margin: 10px 0; /*відступи зліва та зправа  відсутні, 10 пікселів зверху і знизу*/
+}
+.back-to-top {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    background: #ea81f370;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 5px;
+}
+.back-to-top:hover {
+    background: #ea81f3;;
+}
+
+h2, p, h1, ul{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
