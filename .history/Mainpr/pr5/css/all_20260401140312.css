@@ -1,0 +1,16 @@
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    background-color: rgba(238, 128, 101, 0.911);;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    color: blue;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: brown;
+}
