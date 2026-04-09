@@ -1,0 +1,47 @@
+ body { 
+    background-color: rgba(250, 164, 143, 0.911);/*колір фону сторінки*/
+    width: 1000px; /*ширина сторінки*/
+    font-size: 16px; /*розмір тексту*/
+    font-family: Arial, sans-serif; /*шрифт*/
+    margin: 20px; /*відступ від країв*/
+    line-height: 1.6; /*міжрядковий інтервал*/
+}
+section {
+    margin-bottom: 50px; /*відступ знизу секції*/
+}
+img {
+    max-width: 100%; /*максимальна ширина*/
+    height: auto; /*висота*/
+    display: block; /*зображення відображається як блочний елемент*/
+    margin: 10px 0; /*відступи зліва та зправа  відсутні, 10 пікселів зверху і знизу*/
+}
+.back-to-top {
+    display: block; /*відображається як блочний елемент*/
+    margin: 20px 0; /*відступи зліва та зправа  відсутні, 20 пікселів зверху і знизу*/
+    padding: 10px; /* внутрішній відступ всередині кнопки */
+    background:  #ac543996; /*колір фону кнопки*/
+    color: rgb(0, 0, 0); /*колір тексту кнопки*/
+    text-align: center; /*положення кнопки по центру*/
+    text-decoration: none; /*прибирає підкреслення посилання*/
+    width: 200px; /*ширина кнопки*/
+    border-radius: 5px; /*заокруглення кутів*/
+}
+.back-to-top:hover {
+    background: #ac5439; /*зміна кольору кнопки при наведенні*/
+}
+
+h2, p, h1, ul{
+    background-color: rgba(255, 255, 255, 0.219); /*колір фону тексту*/
+}
+
+.block {
+    display: flex;
+    align-items: top;
+    gap: 15px;
+    width: 1000px;
+}
+.block img:hover {
+
+border: 1px solid #777;
+
+}
